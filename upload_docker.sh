@@ -12,7 +12,7 @@ dockerpath=gauravkr04/predict
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login
-docker tag  83738c9e8640 $dockerpath:v1.0.0
+docker tag cddfc4b3313b $dockerpath:v1.0.0
 
 # Step 3:
 # Push image to a docker repository
