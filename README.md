@@ -48,3 +48,6 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Circle CI Job Status 
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/gauravkr04/UdacityProject4/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/gauravkr04/UdacityProject4/tree/main)
