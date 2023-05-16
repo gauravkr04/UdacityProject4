@@ -1,0 +1,30 @@
+POD CREATION - 
+gauravkr04/predict
+pod/predict created
+NAME      READY   STATUS              RESTARTS   AGE
+predict   0/1     ContainerCreating   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
+
+GET PODS - 
+(.devops) geekay@192 UdacityProject4 % kubectl get pods
+NAME      READY   STATUS    RESTARTS   AGE
+predict   1/1     Running   0          92s
+
+
+RUNNING KUBERNETES SCRIPT AGAIN FOR PORT FORWARDING - 
+NAME      READY   STATUS    RESTARTS   AGE
+predict   1/1     Running   0          4m47s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+
+MAKE PREDICTION OUTPUT - 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+
